@@ -1,41 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
+
 <body>
-    <h1>Outras formatações</h1>
+    <h1>Trabalhando com listas</h1>
 
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>o comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript.</p>
+    <h2>Listas Ordenadas</h2> <!--1 A a I i-->
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Beber água</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
 
-    <pre>
-        <code>
-    int idade = 21;
-    if(idade >= 18){
-        System.out.println("Maior de idade!");
-    } else {
-            System.out.println("Menor de idade!");
-    }
-        </code>
-    </pre>
+    <hr>
 
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Listas não ordenadas</h2> <!--square, circle, disc-->
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Café</li>
+    </ul>
 
-    <h2>Citações completas</h2>
-    <p>Segudo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="referência">
-        A diferença entre os elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-    </blockquote>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas
+            <ol type="a">
+                <li>C</li>
+                <li>C++</li>
+            </ol>
+        </li>
 
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+        <li>Novas</li>
+        <ol type="a" start="3">
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+        </ol>
+    </ol>
 
-    <h2>Texto intertido</h2>
-    <p>Socorram-me, subi no ônibus em Marrocos</p>
-    <p><bdo dir="rtl">Socorram-me, subi no ônibus em Marrocos</bdo></p>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>PlayStation 2</li>
+        <ul type="circle">
+            <li>God of war</li>
+            <ul type="disc">
+                <li>God of war 1</li>
+                <li>God of war 2</li>
+                <li>God of war 3</li>
+            </ul>
+            <li>midnight club 3</li>
+            <li>Mortal Kombat</li>
+            <ul type="disc">
+                <li>Mortal Kombat Armageddon</li>
+                <li>Mortal Kombat 11</li>
+                <li>Mortal Kombat 9</li>
+            </ul>
+        </ul>
+
+        <li>Pc</li>
+        <ul>
+            <li>Elden ring</li>
+            <li>Fc 26</li>
+        </ul>
+
+        <li>Super nitendo</li>
+        <ul type="disc">
+            <li>Mario world</li>
+            <li>Mario Kard</li>
+        </ul>
+
+        <li>Xbox</li>
+        <ul type="square">
+            <li>Minecraft</li>
+            <li>Just dance</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de definições</h2>
+    <dt>HTML:</dt> <!--Termo-->
+    <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Descrição-->
+    <dt>CSS:</dt>
+    <dd>Linguagem de marcação para a criação para a criação do design de um site.</dd>
+    <dt>JavaScript:</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
 </body>
+
 </html>
