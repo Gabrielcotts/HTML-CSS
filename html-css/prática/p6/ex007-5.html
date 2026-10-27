@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <link rel="shortcut icon" href="EU_perfil_circular.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Mídias</h1>
+
+    <h2>Imagens dinâmicas</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h2>Áudios</h2>
+    <p>Chegou até aqui? Dê play e relaxe um pouco</p>
+
+    <audio controls>
+        <source src="midia/reddingrainbow.mp3" type="audio/mpeg">
+        <source src="midia/reddingrainbow.ogg" type="audio/ogg">
+        <source src="midia/reddingrainbow.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+
+    </audio>
+
+       <p><a href="midia/reddingrainbow.mp3" download="audio.mp3"  type="application/mp3">Clique aqui para baixar o arquivo MP3</a></p>
+
+       <p><a href="ex007-1.html" target="_self" rel="prev">Clique aqui</a> para voltar à primeira página</p>
+</body>
+
+</html>
