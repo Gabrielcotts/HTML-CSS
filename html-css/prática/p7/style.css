@@ -1,0 +1,29 @@
+    body {
+        background-color: black;
+        color: burlywood;
+        background-image: radial-gradient(2px 2px at 20px 30px, white, black); /*Precisei de ajuda, pois não aprendi a questão do px*/
+        background-size: 250px 250px; /*Peguei na IA*/
+    }
+
+    a {
+        color: rgba(200, 224, 231, 0.856);
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    /*Peguei na IA para aprender a centralizar imagens*/
+    .centro-bloco {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .titulo-com-icone {
+        display: flex;
+        /*Peguei isso na IA*/
+        align-items: center;
+        gap: 10px;
+        /*Peguei isso na IA*/
+    }
